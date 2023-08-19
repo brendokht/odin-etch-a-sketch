@@ -1,0 +1,64 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #202020;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    margin: 2% 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+}
+
+.pixel {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100vw;
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+#github, #x {
+    width: 24px;
+}
+
+#github:hover, #x:hover {
+    scale: 1.5;
+    transition: 0.5s all ease-out;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
