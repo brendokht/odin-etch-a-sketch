@@ -10,3 +10,11 @@ for(var i = 0; i < 16; ++i) {
     }
     square.appendChild(row);
 }
+
+const pixels = document.querySelectorAll('.pixel');
+
+pixels.forEach(pixel => {
+    pixel.addEventListener('mouseover', (e) => {
+        pixel.classList.add('toggled');
+    });
+})
